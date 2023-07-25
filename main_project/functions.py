@@ -1,4 +1,4 @@
-FILEPATH = "main_project/input_file.txt"
+FILEPATH = "input_file.txt"
 def get_todos(filepath=FILEPATH):
     """Return the items in a to-do list"""
     with open(filepath, 'r') as file_local:
